@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "intent": "YesIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Subject",
+          "type": "Topic"
+        }
+      ],
+      "intent": "SummaryIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "CourseSchedule",
+          "type": "CourseScheduleSlot"
+        }
+      ],
+      "intent": "CourseScheduleIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "IntroDetails",
+          "type": "InstructorDetailsSlot"
+        }
+      ],
+      "intent": "CMPEIntroIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "SuggestedBooks",
+          "type": "SuggestedBooksSlot"
+        }
+      ],
+      "intent": "BookIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "WeightageDetails",
+          "type": "WeightageDetailsSlot"
+        }
+      ],
+      "intent": "GradingIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "CourseTopic",
+          "type": "CourseTopicSlot"
+        }
+      ],
+      "intent": "KnowledgeIntent"
+    }
+  ]
+}

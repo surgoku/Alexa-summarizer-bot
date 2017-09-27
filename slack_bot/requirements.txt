@@ -1,0 +1,6 @@
+SlackClient
+nltk
+spacy
+parsedatetime
+PyDictionary
+PyEnchant
